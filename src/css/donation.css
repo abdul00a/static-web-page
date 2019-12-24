@@ -138,6 +138,70 @@ input::placeholder {
   display: flex;
   flex-direction: column;
 }
+
+/*************************Fotter CSS******************************/
+footer {
+    background-color: #fff;
+  }
+  .fotter-brand {
+    width: 28.7vw;
+    font: Bold 4.6vw/6vw Helvetica;
+  }
+  .nav-text > span {
+    font: lighter 3vw/1vw Helvetica;
+  }
+  .nav-text > p {
+    font: lighter 3vw/4.5vw Helvetica;
+    padding-top: 0.5vw;
+  }
+  #addres {
+    width: 28vw;
+    margin-top: 0.5vw;
+  }
+  .info-fotter {
+    width: 19vw;
+    text-decoration: underline;
+    margin-top: 0.5vw;
+  }
+  .font {
+    opacity: 1;
+    font-family: flood;
+  }
+  .font1 {
+    font-size: 9vw;
+    line-height: 10vw;
+  }
+  .footer-font {
+    width: 40vw;
+    text-align: right;
+    margin-left: auto;
+  }
+  .fotter-nav {
+    width: 75vw;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+  }
+  .nav-text {
+    width: 30vw;
+    margin: 0 0 13vw 0;
+    position: unset;
+  }
+  .fotter-container {
+    padding: 15vw 0;
+  }
+  .nav-text > hr {
+    visibility: hidden;
+    margin: 0;
+  }
+  .order {
+    order: 1;
+  }
+  .order1 {
+    order: 1;
+  }
+  
 /*********************************Media Query for tablet view************************************/
 @media screen and (min-width: 426px) {
   /********************header css********************/
@@ -249,7 +313,7 @@ input::placeholder {
   .header {
     font: Bold 2vw/2.4vw Helvetica;
   }
-  
+
   /*********************************************** Form CSS************************************/
   #form {
     background-image: url(../image/desktop1-donation.png);
