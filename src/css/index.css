@@ -154,4 +154,77 @@
     display: flex;
     flex-direction: column;
   }
-  
+ 
+  /********************************3rd Section CSS**********************************/
+.section-info {
+    background: #354463 0% 0% no-repeat padding-box;
+  }
+  .img {
+    position: relative;
+    top: -1.8vw;
+    padding: 5.834vw 8.334vw;
+  }
+  #read {
+    margin: 0.9vw 0 0 0;
+  }
+  .btn-read {
+    width: 8.9vw;
+    border-radius: 5vw;
+    border: none;
+    outline: none;
+    font: Bold 1vw/1.7vw Helvetica;
+    background: #c1f7d5 0vw 0vw no-repeat padding-box;
+    padding: 0.42vw 0;
+  }
+  #planting {
+    background-image: url(../image/tree-planting.png);
+    background-size: cover;
+  }
+  #education {
+    background-image: url(../image/education-training.png);
+    background-size: cover;
+  }
+  #advocacy {
+    background-image: url(../image/advocacy.png);
+    background-size: cover;
+  }
+  #sub-container {
+    padding: 5vw 0 6vw 0;
+  }
+  .info-card {
+    background-color: #ffffff;
+    display: inline-block;
+    padding: 0.58vw 1.53vw;
+    font-size: 0.9vw;
+  }
+  h1 {
+    font-size: 2.9vw;
+    color: #fff;
+    line-height: 3.4vw;
+    padding: 2vw 0 4.5vw 0;
+  }
+  #box {
+    display: flex;
+    padding: 2vw 0;
+    justify-content: space-between;
+  }
+  .card-container {
+    background-color: #fff;
+    width: 16.676vw;
+    box-sizing: border-box;
+    padding: 0 0 2vw 1.668vw;
+  }
+  .head-text {
+    font: Bold 1.5vw/1.7vw Helvetica;
+    padding: 0 0 0.5vw 0;
+  }
+  .big-card {
+    width: 18.343vw;
+  }
+  .subhead-text {
+    font:lighter 0.84vw/1.3vw Helvetica ;
+    padding: 0.5vw 0 1vw 0;
+  }
+  .subhead-text > p {
+    padding-right: 1.33vw;
+  }
