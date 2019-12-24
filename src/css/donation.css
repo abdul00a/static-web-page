@@ -148,6 +148,109 @@ h1 {
     .header {
       font: Bold 3.5vw/3.6vw Helvetica;
     }
+
+      /********************************Form CSS************************************************/
+  #form {
+    background-image: url(../image/tablet-donation.png);
+    background-size: cover;
+  }
+  #tag-head {
+    margin-bottom: 6vw;
+  }
+  #tagLine {
+    text-align: center;
+    font: normal 6vw/6.6vw flood;
+    padding: 0 8vw;
+  }
+  .form-head {
+    font: Bold 3.8vw/4vw Helvetica;
+    margin-bottom: 3vw;
+  }
+  .info-text {
+    font: normal 1.8vw/2vw Helvetica;
+    letter-spacing: 0.1vw;
+  }
+  input::placeholder {
+    font-size: 2.2vw;
+  }
+  #credit-card {
+    margin-top: 4vw;
+  }
+  .bottom-text {
+    font: Bold 3.5vw/5vw Helvetica;
+  }
+  #pay {
+    font: Bold 2.8vw/2vw Helvetica;
+    padding: 2.67vw 0vw;
+    width: 33.334vw;
+  }
+  #pay > p {
+    margin: 0;
+  }
+  .bottom {
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    margin-bottom: 8vw;
+  }
+  #link {
+    font: lighter 2.2vw/2.5vw Helvetica;
+    align-self: center;
+  }
+  /*******************************Fotter CSS*****************************/
+  .fotter-brand {
+    width: 22.7vw;
+    font: Bold 3vw/4vw Helvetica;
+  }
+  .fotter-nav {
+    width: auto;
+    flex-wrap: wrap;
+  }
+  .nav-text > span {
+    font: lighter 1.8vw/1vw Helvetica;
+  }
+  .nav-text > p {
+    font: lighter 1.8vw/2.5vw Helvetica;
+    padding-top: 0.5vw;
+  }
+  .nav-text {
+    width: 18vw;
+    margin-bottom: 6.8vw;
+    margin-right: 3vw;
+  }
+  #addres {
+    width: 17vw;
+  }
+  .info-fotter {
+    width: 11vw;
+  }
+  .font1 {
+    font-size: 5vw;
+    line-height: 4.7vw;
+  }
+  .footer-font {
+    width: 22vw;
+    text-align: left;
+  }
+  .fotter-container {
+    padding: 8vw 0 5vw 0;
+  }
+  .order {
+    position: relative;
+    left: 31vw;
+  }
+}
+
+/*********************************Media Query for Desktop view************************************/
+
+@media screen and (min-width: 769px) {
+  /************************* header CSS****************************/
+  #head {
+    padding: 1.81vw 32.2vw;
+  }
+  .header {
+    font: Bold 2vw/2.4vw Helvetica;
+  }
+
 }
 
 /*********************************Media Query for Desktop view************************************/
