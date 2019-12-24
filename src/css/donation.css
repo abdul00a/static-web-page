@@ -24,3 +24,14 @@ h1 {
   text-align: center;
   font: Bold 4.8vw/5.5vw Helvetica;
 }
+
+/*********************************Media Query for tablet view************************************/
+@media screen and (min-width: 426px) {
+    /********************header css********************/
+    #head {
+      padding: 3.778vw 27vw;
+    }
+    .header {
+      font: Bold 3.5vw/3.6vw Helvetica;
+    }
+}
