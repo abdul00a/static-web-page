@@ -1,0 +1,19 @@
+{
+  "name": "green_tree_project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/abdul00/static-web-page.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/abdul00/static-web-page/issues"
+  },
+  "homepage": "https://gitlab.com/abdul00/static-web-page#readme"
+}
