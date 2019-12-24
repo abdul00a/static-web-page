@@ -35,3 +35,14 @@ h1 {
       font: Bold 3.5vw/3.6vw Helvetica;
     }
 }
+
+/*********************************Media Query for Desktop view************************************/
+@media screen and (min-width: 769px) {
+    /************************* header CSS****************************/
+    #head {
+      padding: 1.81vw 32.2vw;
+    }
+    .header {
+      font: Bold 2vw/2.4vw Helvetica;
+    }
+}
