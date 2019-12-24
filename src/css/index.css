@@ -228,3 +228,45 @@
   .subhead-text > p {
     padding-right: 1.33vw;
   }
+
+  /***********************************Fotter CSS***************************/
+footer {
+    background-color: #fff;
+  }
+  .font1 {
+    font-size: 2.5vw;
+    line-height: 2.5vw;
+    color: #354463;
+  }
+  .footer-font {
+    width: 12vw;
+    text-align: right;
+  }
+  .fotter-brand {
+    width: 10vw;
+    font: Bold 1.3vw/1.6vw Helvetica;
+  }
+  .fotter-container {
+    padding: 6vw 0;
+  }
+  .fotter-nav {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+  }
+  .nav-text {
+    width: 9vw;
+  }
+  .nav-text > span {
+    font: lighter 0.8vw/1.2vw Helvetica;
+    letter-spacing: 0.001vw;
+  }
+  .nav-text > p {
+    font: lighter 0.7vw/1.02vw Helvetica;
+  }
+  #addres {
+    width: 7vw;
+  }
+  .info-fotter {
+    width: 4.3vw;
+  }
