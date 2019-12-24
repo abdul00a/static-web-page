@@ -1,0 +1,26 @@
+/*****************************************Global CSS************************************/
+body,
+h1 {
+  margin: 0;
+}
+@font-face {
+  font-family: flood;
+  src: url(../fonts/FloodStd.otf);
+}
+.container {
+  margin: 0 auto;
+  width: 80vw;
+}
+* {
+  color: #354463;
+  font-family: Helvetica;
+}
+
+/**************************************** Header CSS*********************************/
+#head {
+  padding: 4vw 22vw;
+}
+.header {
+  text-align: center;
+  font: Bold 4.8vw/5.5vw Helvetica;
+}
