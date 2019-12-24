@@ -25,6 +25,120 @@ h1 {
   font: Bold 4.8vw/5.5vw Helvetica;
 }
 
+
+/******************************* Form CSS**********************************/
+#form {
+    background-image: url(../image/mobile_donation1.png);
+    background-size: cover;
+  }
+  #Reg-form {
+    background-color: #354463;
+    padding: 7.52vw 7.52vw 1vw 7.52vw;
+  }
+  .text-color {
+    color: #ffffff;
+  }
+  #tagLine {
+    text-align: center;
+    font: normal 8vw/10.5vw flood;
+  }
+  #tag-head {
+    margin: 0 0 5vw 0;
+  }
+  #inner-container {
+    padding: 7.765vw 0;
+  }
+  .form-head {
+    font: Bold 5.5vw/14vw Helvetica;
+  }
+  .info-text {
+    font: normal 2.8vw/1vw Helvetica;
+    letter-spacing: 0.1vw;
+  }
+  #names {
+    display: flex;
+    justify-content: space-between;
+  }
+  hr {
+    border: 0.1vw solid #c1f7d5;
+    opacity: 1;
+  }
+  .name {
+    width: 28vw;
+  }
+  input {
+    background-color: #354463;
+    border: none;
+  }
+  .input {
+    width: 27vw;
+  }
+  .city-info {
+    display: flex;
+    justify-content: space-between;
+  }
+  .city {
+    width: 28vw;
+  }
+  #select {
+    background-color: #354463;
+    border: none;
+    color: #c1f7d5;
+    width: 11.765vw;
+  }
+  .state {
+    width: 11.765vw;
+  }
+  .zip-code {
+    width: 14vw;
+  }
+  .zip-code > input {
+    width: 14vw;
+  }
+  #email {
+    margin-bottom: 8vw;
+  }
+  #card-detail {
+    display: flex;
+    justify-content: space-between;
+  }
+  .card {
+    width: 11.767vw;
+  }
+  #code {
+    width: 25vw;
+  }
+  #code > hr {
+    width: 11.37vw;
+    margin: 1.55553vw 0;
+  }
+  .card-input {
+    width: 11.765vw;
+  }
+  .bottom-text {
+    font: Bold 4.5vw/6vw Helvetica;
+    margin: 8vw 0;
+  }
+  #pay {
+    font: Bold 4vw/2vw Helvetica;
+    background: #c1f7d5 0% 0% no-repeat padding-box;
+    border-radius: 8vw;
+    padding: 0.824vw 0vw;
+    text-align: center;
+  }
+  #link {
+    text-decoration: underline;
+    font: lighter 4vw/20vw Helvetica;
+    letter-spacing: -0.11vw;
+    color: #c1f7d5;
+  }
+  input::placeholder {
+    font-size: 3.5vw;
+  }
+  .bottom {
+    display: flex;
+    flex-direction: column;
+  }
 /*********************************Media Query for tablet view************************************/
 @media screen and (min-width: 426px) {
     /********************header css********************/
