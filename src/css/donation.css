@@ -25,131 +25,130 @@ h1 {
   font: Bold 4.8vw/5.5vw Helvetica;
 }
 
-
 /******************************* Form CSS**********************************/
 #form {
-    background-image: url(../image/mobile_donation1.png);
-    background-size: cover;
-  }
-  #Reg-form {
-    background-color: #354463;
-    padding: 7.52vw 7.52vw 1vw 7.52vw;
-  }
-  .text-color {
-    color: #ffffff;
-  }
-  #tagLine {
-    text-align: center;
-    font: normal 8vw/10.5vw flood;
-  }
-  #tag-head {
-    margin: 0 0 5vw 0;
-  }
-  #inner-container {
-    padding: 7.765vw 0;
-  }
-  .form-head {
-    font: Bold 5.5vw/14vw Helvetica;
-  }
-  .info-text {
-    font: normal 2.8vw/1vw Helvetica;
-    letter-spacing: 0.1vw;
-  }
-  #names {
-    display: flex;
-    justify-content: space-between;
-  }
-  hr {
-    border: 0.1vw solid #c1f7d5;
-    opacity: 1;
-  }
-  .name {
-    width: 28vw;
-  }
-  input {
-    background-color: #354463;
-    border: none;
-  }
-  .input {
-    width: 27vw;
-  }
-  .city-info {
-    display: flex;
-    justify-content: space-between;
-  }
-  .city {
-    width: 28vw;
-  }
-  #select {
-    background-color: #354463;
-    border: none;
-    color: #c1f7d5;
-    width: 11.765vw;
-  }
-  .state {
-    width: 11.765vw;
-  }
-  .zip-code {
-    width: 14vw;
-  }
-  .zip-code > input {
-    width: 14vw;
-  }
-  #email {
-    margin-bottom: 8vw;
-  }
-  #card-detail {
-    display: flex;
-    justify-content: space-between;
-  }
-  .card {
-    width: 11.767vw;
-  }
-  #code {
-    width: 25vw;
-  }
-  #code > hr {
-    width: 11.37vw;
-    margin: 1.55553vw 0;
-  }
-  .card-input {
-    width: 11.765vw;
-  }
-  .bottom-text {
-    font: Bold 4.5vw/6vw Helvetica;
-    margin: 8vw 0;
-  }
-  #pay {
-    font: Bold 4vw/2vw Helvetica;
-    background: #c1f7d5 0% 0% no-repeat padding-box;
-    border-radius: 8vw;
-    padding: 0.824vw 0vw;
-    text-align: center;
-  }
-  #link {
-    text-decoration: underline;
-    font: lighter 4vw/20vw Helvetica;
-    letter-spacing: -0.11vw;
-    color: #c1f7d5;
-  }
-  input::placeholder {
-    font-size: 3.5vw;
-  }
-  .bottom {
-    display: flex;
-    flex-direction: column;
-  }
+  background-image: url(../image/mobile_donation1.png);
+  background-size: cover;
+}
+#Reg-form {
+  background-color: #354463;
+  padding: 7.52vw 7.52vw 1vw 7.52vw;
+}
+.text-color {
+  color: #ffffff;
+}
+#tagLine {
+  text-align: center;
+  font: normal 8vw/10.5vw flood;
+}
+#tag-head {
+  margin: 0 0 5vw 0;
+}
+#inner-container {
+  padding: 7.765vw 0;
+}
+.form-head {
+  font: Bold 5.5vw/14vw Helvetica;
+}
+.info-text {
+  font: normal 2.8vw/1vw Helvetica;
+  letter-spacing: 0.1vw;
+}
+#names {
+  display: flex;
+  justify-content: space-between;
+}
+hr {
+  border: 0.1vw solid #c1f7d5;
+  opacity: 1;
+}
+.name {
+  width: 28vw;
+}
+input {
+  background-color: #354463;
+  border: none;
+}
+.input {
+  width: 27vw;
+}
+.city-info {
+  display: flex;
+  justify-content: space-between;
+}
+.city {
+  width: 28vw;
+}
+#select {
+  background-color: #354463;
+  border: none;
+  color: #c1f7d5;
+  width: 11.765vw;
+}
+.state {
+  width: 11.765vw;
+}
+.zip-code {
+  width: 14vw;
+}
+.zip-code > input {
+  width: 14vw;
+}
+#email {
+  margin-bottom: 8vw;
+}
+#card-detail {
+  display: flex;
+  justify-content: space-between;
+}
+.card {
+  width: 11.767vw;
+}
+#code {
+  width: 25vw;
+}
+#code > hr {
+  width: 11.37vw;
+  margin: 1.55553vw 0;
+}
+.card-input {
+  width: 11.765vw;
+}
+.bottom-text {
+  font: Bold 4.5vw/6vw Helvetica;
+  margin: 8vw 0;
+}
+#pay {
+  font: Bold 4vw/2vw Helvetica;
+  background: #c1f7d5 0% 0% no-repeat padding-box;
+  border-radius: 8vw;
+  padding: 0.824vw 0vw;
+  text-align: center;
+}
+#link {
+  text-decoration: underline;
+  font: lighter 4vw/20vw Helvetica;
+  letter-spacing: -0.11vw;
+  color: #c1f7d5;
+}
+input::placeholder {
+  font-size: 3.5vw;
+}
+.bottom {
+  display: flex;
+  flex-direction: column;
+}
 /*********************************Media Query for tablet view************************************/
 @media screen and (min-width: 426px) {
-    /********************header css********************/
-    #head {
-      padding: 3.778vw 27vw;
-    }
-    .header {
-      font: Bold 3.5vw/3.6vw Helvetica;
-    }
+  /********************header css********************/
+  #head {
+    padding: 3.778vw 27vw;
+  }
+  .header {
+    font: Bold 3.5vw/3.6vw Helvetica;
+  }
 
-      /********************************Form CSS************************************************/
+  /********************************Form CSS************************************************/
   #form {
     background-image: url(../image/tablet-donation.png);
     background-size: cover;
@@ -250,16 +249,143 @@ h1 {
   .header {
     font: Bold 2vw/2.4vw Helvetica;
   }
+  
+  /*********************************************** Form CSS************************************/
+  #form {
+    background-image: url(../image/desktop1-donation.png);
+    background-size: cover;
+  }
+  #inner-container {
+    padding: 7.765vw 0;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+  }
+  #tagLine {
+    font: normal 5vw/5.4vw flood;
+    padding: 0;
+    width: 30vw;
+  }
+  .form-head {
+    font: Bold 1.9vw/2.6vw Helvetica;
+    margin: 0;
+  }
+  .name {
+    width: 12.556vw;
+  }
+  .info-text {
+    font: normal 1vw/2vw Helvetica;
+    margin-bottom: 0;
+  }
+  input::placeholder {
+    font-size: 0.8vw;
+  }
+  .input {
+    width: 12.556vw;
+  }
+  .address {
+    width: 31.556vw;
+  }
+  .city-info {
+    display: flex;
+    justify-content: space-between;
+    width: 31.556vw;
+  }
+  #select {
+    width: 4.765vw;
+  }
+  .state {
+    width: 5.667vw;
+  }
+  .zip-code {
+    width: 5.667vw;
+  }
+  .zip-code > input {
+    width: 5.6vw;
+  }
+  .city {
+    width: 12.556vw;
+  }
+  #email {
+    width: 31.55vw;
+    margin-bottom: 4vw;
+  }
+  #credit-card {
+    width: 31.55vw;
+    margin-top: 1.5vw;
+  }
+  .card {
+    width: 4.667vw;
+  }
+  .card-input {
+    width: 4.765vw;
+  }
+  #code {
+    width: 12vw;
+  }
+  .bottom-text {
+    font: Bold 1.8vw/2.5vw Helvetica;
+    margin: 4vw 0;
+  }
+  #pay {
+    font: Bold 1.6vw/2vw Helvetica;
+    padding: 0.973vw 0vw;
+    width: 17.778vw;
+  }
+  #link {
+    font: lighter 1.4vw/2.4vw Helvetica;
+  }
+  #Reg-form {
+    padding: 4.52vw 6.52vw 0vw 6.52vw;
+    width: 31.41vw;
+  }
+  .bottom {
+    margin-bottom: 6vw;
+  }
 
-}
-
-/*********************************Media Query for Desktop view************************************/
-@media screen and (min-width: 769px) {
-    /************************* header CSS****************************/
-    #head {
-      padding: 1.81vw 32.2vw;
-    }
-    .header {
-      font: Bold 2vw/2.4vw Helvetica;
-    }
+  /*******************************************fotter CSS****************************************/
+  .font1 {
+    font-size: 3.3vw;
+    line-height: 3.1vw;
+  }
+  .footer-font {
+    width: 14vw;
+    text-align: right;
+    margin-left: 0;
+  }
+  .fotter-brand {
+    width: 12vw;
+    font: Bold 1.6vw/2vw Helvetica;
+  }
+  .fotter-container {
+    padding: 6vw 0;
+  }
+  .nav-text {
+    width: 11vw;
+    margin: 0 0 0.8vw 3vw;
+  }
+  .nav-text > hr {
+    visibility: visible;
+    border: 0.04vw solid #354463;
+    margin: 0.5vw 0;
+  }
+  .nav-text > span {
+    font: lighter 1.1vw/1.3vw Helvetica;
+    letter-spacing: 0.001vw;
+  }
+  .nav-text > p {
+    font: lighter 1vw/1.5vw Helvetica;
+    padding-top: 0;
+  }
+  #addres {
+    width: 10vw;
+  }
+  .info-fotter {
+    width: 6.5vw;
+    text-decoration: none;
+  }
+  .order {
+    order: 0;
+    position: unset;
+  }
 }
