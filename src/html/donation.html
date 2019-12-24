@@ -13,6 +13,7 @@
     />
   </head>
   <body>
+
     <!-- header -->
     <header>
       <div class="container">
@@ -22,7 +23,7 @@
       </div>
     </header>
 
-    <!-- Registration form -->
+<!-- Registration form -->
     <form id="form">
       <div class="container">
         <div id="inner-container">
@@ -36,68 +37,80 @@
             <div id="names">
               <div class="name">
                 <p class="text-color info-text">FIRST NAME</p>
-                <input type="text" class="input" placeholder="First name" />
+                <input type="text" class="input" id="fname" />
+                <label for="fname">FIRST NAME</label>
                 <hr />
               </div>
               <div class="name">
                 <p class="text-color info-text">LAST NAME</p>
-                <input type="text" class="input" placeholder="Last name" />
+                <input type="text" class="input" id="lname"/>
+                <label for="lname">LAST NAME</label>
                 <hr />
               </div>
             </div>
             <div class="address">
               <p class="text-color info-text">STREET ADDRESS</p>
-              <input type="text" placeholder="Street address" />
+              <input type="text" id="street" />
+              <label for="street">STREET ADDRESS</label>
+
               <hr />
             </div>
             <div class="city-info">
               <div class="city">
                 <p class="text-color info-text">CITY</p>
-                <input type="text" class="input" placeholder="City" />
+                <input type="text" class="input" id="city"/>
+                <label for="city">CITY</label>
                 <hr />
               </div>
               <div class="state">
                 <p class="text-color info-text">STATE</p>
                 <select id="select">
-                  <option value="volvo" class="items">Volvo</option>
-                  <option value="saab" class="items">Saab</option>
-                  <option value="mercedes" class="items">Mercedes</option>
-                  <option value="audi" class="items">Audi</option>
+                  <option value="U.P" class="items">U.P</option>
+                  <option value="U.K" class="items">U.K</option>
+                  <option value="KR" class="items">KR</option>
+                  <option value="GOA" class="items">GOA</option>
                 </select>
                 <hr />
               </div>
               <div class="zip-code">
                 <p class="text-color info-text">ZIP CODE</p>
-                <input type="text" placeholder="Zip" />
+                <input type="text" id="zip"/>
+                <label for="zip">ZIP CODE</label>
                 <hr />
               </div>
             </div>
             <div id="email">
               <p class="text-color info-text">EMAIL ADDRESS</p>
-              <input type="text" placeholder="Email address" />
+              <input type="text" id="emails"/>
+              <label for="emails">EMAIL ADDRESS</label>
               <hr />
             </div>
             <h1 class="text-color form-head">Payment information</h1>
             <div id="credit-card">
               <p class="text-color info-text">CREDIT CARD NUMBER</p>
-              <input type="text" placeholder="Credit card number" />
+              <input type="text" id="card" />
+              <label for="card">CREDIT CARD NUMBER</label>
+
               <hr />
             </div>
             <div id="card-detail">
               <div id="year" class="card">
                 <p class="text-color info-text">MONTH</p>
-                <input type="text" placeholder="MM" class="card-input" />
-                <hr />
+                <input type="text" class="card-input" id="month" />
+              <label for="month">MONTH</label>
+              <hr />
               </div>
-              <div id="date" class="card">
+              <div id="date" class="card label">
                 <p class="text-color info-text">YEAR</p>
-                <input type="text" placeholder="YYYY" class="card-input" />
-                <hr />
+                <input type="text" class="card-input" id="yr" />
+              <label for="yr">YEAR</label>
+              <hr />
               </div>
               <div id="code">
                 <p class="text-color info-text">SECURITY CODE</p>
-                <input type="text" placeholder="CVC" class="card-input" />
-                <hr />
+                <input type="text" class="card-input" id="code"/>
+              <label for="code">SECURITY CODE</label>
+              <hr />
               </div>
             </div>
             <p class="text-color bottom-text">
@@ -115,40 +128,40 @@
       </div>
     </form>
 
-    <!-- footer -->
+<!-- footer -->
     <footer>
-        <div class="container">
-          <div class="fotter-container">
-            <nav class="fotter-nav">
-              <span class="fotter-brand">
-                The Green Trees Initiative
-              </span>
-              <div class="nav-text">
-                <span>CONTACT US</span>
-                <hr />
-                <p id="addres">
-                  123 Anywhere St. Cityname, NY 11206 (123) 456-7890
-                  contact@npo.org
-                </p>
-              </div>
-              <div class="nav-text order">
-                <span>LINKS</span>
-                <hr />
-                <p class="info-fotter">
-                  The issue How we help Get involved Latest news
-                </p>
-              </div>
-              <div class="nav-text">
-                <span>FOLLOW US</span>
-                <hr />
-                <p class="info-fotter">Facebook Twitter Instagram Medium</p>
-              </div>
-              <div class="footer-font  order1">
-                <span class="font font1">#stop climate change</span>
-              </div>
-            </nav>
-          </div>
+      <div class="container">
+        <div class="fotter-container">
+          <nav class="fotter-nav">
+            <span class="fotter-brand">
+              The Green Trees Initiative
+            </span>
+            <div class="nav-text">
+              <span>CONTACT US</span>
+              <hr />
+              <p id="addres">
+                123 Anywhere St. Cityname, NY 11206 (123) 456-7890
+                contact@npo.org
+              </p>
+            </div>
+            <div class="nav-text order">
+              <span>LINKS</span>
+              <hr />
+              <p class="info-fotter">
+                The issue How we help Get involved Latest news
+              </p>
+            </div>
+            <div class="nav-text">
+              <span>FOLLOW US</span>
+              <hr />
+              <p class="info-fotter">Facebook Twitter Instagram Medium</p>
+            </div>
+            <div class="footer-font  order1">
+              <span class="font font1">#stop climate change</span>
+            </div>
+          </nav>
         </div>
-      </footer>
+      </div>
+    </footer>
   </body>
 </html>

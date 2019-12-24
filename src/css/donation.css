@@ -53,28 +53,51 @@ h1 {
 .info-text {
   font: normal 2.8vw/1vw Helvetica;
   letter-spacing: 0.1vw;
+  visibility: hidden;
 }
 #names {
   display: flex;
   justify-content: space-between;
 }
 hr {
-  border: 0.1vw solid #c1f7d5;
+  border: 0.2vw solid #c1f7d5;
   opacity: 1;
 }
 .name {
   width: 28vw;
+  position: relative;
 }
 input {
   background-color: #354463;
   border: none;
+  outline: none;
+  width: fit-content;
+  color: #fff;
 }
 .input {
   width: 27vw;
 }
+label {
+  position: absolute;
+  left: 0;
+  width: auto;
+  color: #fff;
+  transition: 0.2s all;
+  cursor: text;
+  font-size: 2vw;
+  margin-top: 2vw;
+}
+input:focus ~ label {
+  top: -0.3vw;
+  color: #00dd22;
+}
+.address {
+  position: relative;
+}
 .city-info {
   display: flex;
   justify-content: space-between;
+  position: relative;
 }
 .city {
   width: 28vw;
@@ -88,28 +111,49 @@ input {
 .state {
   width: 11.765vw;
 }
+.state > p {
+  visibility: visible;
+}
 .zip-code {
   width: 14vw;
 }
 .zip-code > input {
   width: 14vw;
 }
+.zip-code > label {
+  left: 51vw;
+}
 #email {
-  margin-bottom: 8vw;
+  position: relative;
 }
 #card-detail {
   display: flex;
   justify-content: space-between;
+  position: relative;
 }
 .card {
   width: 11.767vw;
 }
+.card > label {
+  top: 6vw;
+}
+.label > label {
+  left: 20vw;
+}
+#credit-card {
+  position: relative;
+}
 #code {
   width: 25vw;
 }
+#code > label {
+  left: 40vw;
+  width: 21vw;
+}
 #code > hr {
   width: 11.37vw;
-  margin: 1.55553vw 0;
+  margin-left: 0;
+  padding-right: 9vw;
 }
 .card-input {
   width: 11.765vw;
@@ -138,70 +182,69 @@ input::placeholder {
   display: flex;
   flex-direction: column;
 }
-
 /*************************Fotter CSS******************************/
 footer {
-    background-color: #fff;
-  }
-  .fotter-brand {
-    width: 28.7vw;
-    font: Bold 4.6vw/6vw Helvetica;
-  }
-  .nav-text > span {
-    font: lighter 3vw/1vw Helvetica;
-  }
-  .nav-text > p {
-    font: lighter 3vw/4.5vw Helvetica;
-    padding-top: 0.5vw;
-  }
-  #addres {
-    width: 28vw;
-    margin-top: 0.5vw;
-  }
-  .info-fotter {
-    width: 19vw;
-    text-decoration: underline;
-    margin-top: 0.5vw;
-  }
-  .font {
-    opacity: 1;
-    font-family: flood;
-  }
-  .font1 {
-    font-size: 9vw;
-    line-height: 10vw;
-  }
-  .footer-font {
-    width: 40vw;
-    text-align: right;
-    margin-left: auto;
-  }
-  .fotter-nav {
-    width: 75vw;
-    flex-wrap: wrap;
-    box-sizing: border-box;
-    display: flex;
-    justify-content: space-between;
-  }
-  .nav-text {
-    width: 30vw;
-    margin: 0 0 13vw 0;
-    position: unset;
-  }
-  .fotter-container {
-    padding: 15vw 0;
-  }
-  .nav-text > hr {
-    visibility: hidden;
-    margin: 0;
-  }
-  .order {
-    order: 1;
-  }
-  .order1 {
-    order: 1;
-  }
-  
+  background-color: #fff;
+}
+.fotter-brand {
+  width: 28.7vw;
+  font: Bold 4.6vw/6vw Helvetica;
+}
+.nav-text > span {
+  font: lighter 3vw/1vw Helvetica;
+}
+.nav-text > p {
+  font: lighter 3vw/4.5vw Helvetica;
+  padding-top: 0.5vw;
+}
+#addres {
+  width: 28vw;
+  margin-top: 0.5vw;
+}
+.info-fotter {
+  width: 19vw;
+  text-decoration: underline;
+  margin-top: 0.5vw;
+}
+.font {
+  opacity: 1;
+  font-family: flood;
+}
+.font1 {
+  font-size: 9vw;
+  line-height: 10vw;
+}
+.footer-font {
+  width: 40vw;
+  text-align: right;
+  margin-left: auto;
+}
+.fotter-nav {
+  width: 75vw;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+}
+.nav-text {
+  width: 30vw;
+  margin: 0 0 13vw 0;
+  position: unset;
+}
+.fotter-container {
+  padding: 15vw 0;
+}
+.nav-text > hr {
+  visibility: hidden;
+  margin: 0;
+}
+.order {
+  order: 1;
+}
+.order1 {
+  order: 1;
+}
+
 /*********************************Media Query for tablet view************************************/
 @media screen and (min-width: 426px) {
   /********************header css********************/
@@ -211,7 +254,6 @@ footer {
   .header {
     font: Bold 3.5vw/3.6vw Helvetica;
   }
-
   /********************************Form CSS************************************************/
   #form {
     background-image: url(../image/tablet-donation.png);
@@ -227,7 +269,7 @@ footer {
   }
   .form-head {
     font: Bold 3.8vw/4vw Helvetica;
-    margin-bottom: 3vw;
+    margin: 8vw 0 3vw 0;
   }
   .info-text {
     font: normal 1.8vw/2vw Helvetica;
@@ -247,7 +289,13 @@ footer {
     padding: 2.67vw 0vw;
     width: 33.334vw;
   }
+  #email {
+    position: relative;
+  }
   #pay > p {
+    margin: 0;
+  }
+  label {
     margin: 0;
   }
   .bottom {
@@ -332,10 +380,11 @@ footer {
   }
   .form-head {
     font: Bold 1.9vw/2.6vw Helvetica;
-    margin: 0;
+    margin: 5vw 0 2vw 0;
   }
   .name {
     width: 12.556vw;
+    position: relative;
   }
   .info-text {
     font: normal 1vw/2vw Helvetica;
@@ -346,6 +395,9 @@ footer {
   }
   .input {
     width: 12.556vw;
+  }
+  label {
+    font-size: 1.3vw;
   }
   .address {
     width: 31.556vw;
@@ -367,12 +419,24 @@ footer {
   .zip-code > input {
     width: 5.6vw;
   }
+  .card > label {
+    top: 3vw;
+  }
+  .label > label {
+    left: 10vw;
+  }
+  #code > label {
+    left: 20vw;
+    width: 11vw;
+  }
+  #code > hr {
+    padding-right: 0vw;
+  }
   .city {
     width: 12.556vw;
   }
   #email {
     width: 31.55vw;
-    margin-bottom: 4vw;
   }
   #credit-card {
     width: 31.55vw;
@@ -383,6 +447,9 @@ footer {
   }
   .card-input {
     width: 4.765vw;
+  }
+  .zip-code > label {
+    left: 25vw;
   }
   #code {
     width: 12vw;
