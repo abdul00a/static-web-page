@@ -1,0 +1,68 @@
+/********************************* Global CSS***************************************/
+@font-face {
+    font-family: flood;
+    src: url(../fonts/FloodStd.otf);
+  }
+  body,
+  p,
+  h1 {
+    margin: 0;
+  }
+  * {
+    color: #354463;
+    font-family: Helvetica;
+  }
+  .container {
+    margin: 0 auto;
+    width: 75vw;
+  }
+  
+  /************************************Header CSS********************************/
+  .flex-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 2vw 0;
+  }
+  #content {
+    width: 60vw;
+    background: #ffffff 0vw 0vw no-repeat padding-box;
+    display: flex;
+    justify-content: space-between;
+  }
+  .nav {
+    width: 36vw;
+    box-sizing: border-box;
+    padding-top: 0.5vw;
+  }
+  .nav-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.4vw 1.1vw 0 2.4vw;
+    margin: 1.1vw 0 0 0;
+  }
+  .nav-content > li {
+    list-style-type: none;
+    font: lighter 1vw/1vw Helvetica;
+    letter-spacing: -0.01vw;
+  }
+  .brand {
+    width: 12vw;
+    font: Bold 1.6vw/1.9vw Helvetica;
+    letter-spacing: 0;
+  }
+  #btn {
+    margin: 0.9vw 0 0 0;
+  }
+  .btn-donate {
+    width: 8.9vw;
+    border-radius: 5vw;
+    border: none;
+    outline: none;
+    font: Bold 1vw/1.7vw Helvetica;
+    background: #c1f7d5 0vw 0vw no-repeat padding-box;
+    padding: 0.42vw 0;
+  }
+  a {
+    color: #354463;
+  }
+  
