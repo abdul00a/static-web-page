@@ -66,3 +66,54 @@
     color: #354463;
   }
   
+  /*******************************Climate Section CSS**********************************/
+.section-climate {
+    background: url(../image/annie-spratt-135307-unsplash.png) no-repeat;
+    background-size: cover;
+    padding: 13vw 0;
+  }
+  .climate {
+    background: #ffffff 0vw 0vw no-repeat padding-box;
+    width: 28.4vw;
+    position: relative;
+  }
+  .issue {
+    width: 8.34vw;
+    background: #354463 0vw 0vw no-repeat padding-box;
+    position: absolute;
+    left: 2vw;
+    top: -1vw;
+    display: flex;
+    justify-content: center;
+    padding: 0.574vw 0;
+  }
+  #issue-style {
+    font: normal 0.8vw/0.95vw Helvetica;
+    letter-spacing: 0.06vw;
+    color: #ffffff;
+  }
+  .text-container {
+    padding: 3vw 3vw 2vw 3vw;
+  }
+  .text {
+    font: Bold 2.2vw/2.9vw Helvetica;
+    letter-spacing: 0;
+    padding-top: 0.5vw;
+  }
+  .text-underline {
+    text-decoration: underline;
+    font: lighter 0.9vw/5vw Helvetica;
+    letter-spacing: -0.03vw;
+  }
+  .font {
+    font-family: flood;
+    font-size: 4vw;
+    color: #ffffff;
+  }
+  .climate-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  .fonts {
+    width: 29vw;
+  }
